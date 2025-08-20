@@ -16,7 +16,21 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body class="font-[rubik]">
+    <div class="container mx-auto p-6">
+
+        <!-- Head Text -->
+        <h1 class="text-2xl md:text-5xl font-bold text-center text-gray-800 mb-6">Daftar Produk - Fashion</h1>
+
+        <!-- Tombol filter -->
+        <div class="flex justify-center gap-3 mb-8"> 
+            <button onclick="tampilkanProduk('all')" class="hover:cursor-pointer px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Semua</button> 
+            <button onclick="tampilkanProduk('Fashion')" class="hover:cursor-pointer px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600">Fashion</button> 
+            <button onclick="tampilkanProduk('Elektronik')" class="hover:cursor-pointer px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600">Elektronik</button> 
+        </div>
+
+    </div>
+
 
 </body>
 
